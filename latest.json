@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-08-28T13:20:00.236367+00:00",
+  "signal_date": "2026-08-27",
+  "next_execution": "2026-08-28",
+  "action": "BUY / ADD",
+  "state": 2,
+  "exposure": 1.2,
+  "reason": "상승추세 + 장기모멘텀 양수 -> 1.2x",
+  "nominal_weights": {
+    "QQQ": 0.8,
+    "QLD": 0.2,
+    "CASH": 0.0,
+    "EXPOSURE": 1.2
+  },
+  "current_weights": {
+    "QQQ": 0.0,
+    "QLD": 0.0,
+    "TQQQ": 0.0,
+    "CASH": 1.0
+  },
+  "target_weights": {
+    "QQQ": 0.7932209838867188,
+    "QLD": 0.19189799423217774,
+    "TQQQ": 0.0,
+    "CASH": 0.014881021881103516
+  },
+  "target_shares": {
+    "QQQ": 11.0,
+    "QLD": 21.0,
+    "TQQQ": 0.0
+  },
+  "orders": [
+    {
+      "ticker": "QQQ",
+      "side": "BUY",
+      "shares": 11.0,
+      "current_shares": 0.0,
+      "target_shares": 11.0,
+      "price": 721.1099853515625,
+      "estimated_notional": 7932.2098388671875
+    },
+    {
+      "ticker": "QLD",
+      "side": "BUY",
+      "shares": 21.0,
+      "current_shares": 0.0,
+      "target_shares": 21.0,
+      "price": 91.37999725341797,
+      "estimated_notional": 1918.9799423217773
+    }
+  ],
+  "strategy": {
+    "arch": "FAST_RISK",
+    "sma": 150,
+    "mom_fast": 60,
+    "mom_slow": 120,
+    "vol_window": 20,
+    "vol_threshold": 0.198,
+    "crash_dd": -0.198,
+    "confirm": 1,
+    "boost_mom": 0.054,
+    "recovery_mom": 0.018,
+    "lookback_scale": 0.85,
+    "risk_scale": 0.9,
+    "refinement": "CAP_14",
+    "max_exposure": 1.4,
+    "train_end": "2026-07-03",
+    "valid_until": "2027-01-03",
+    "period": "5y"
+  }
+}
