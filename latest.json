@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-15T01:21:30.368826+00:00",
-  "signal_date": "2026-09-11",
-  "next_execution": "2026-09-14",
+  "generated_at": "2026-09-15T19:42:19.734394+00:00",
+  "signal_date": "2026-09-15",
+  "next_execution": "2026-09-16",
   "action": "BUY / ADD",
   "action_ko": "매수",
   "state": 2,
   "exposure": 1.2,
   "reason": "상승추세 + 장기모멘텀 양수 -> 1.2x",
   "reason_plain": [
-    "상승 추세 유지 · QQQ $715 / SMA150 $673",
-    "120일 모멘텀 23.1% · 양호",
-    "60일 모멘텀 -1.9% · 강세 가속 기준 5.4% 미충족",
-    "20일 변동성 12.4% · 기준 19.8% 이내"
+    "상승 추세 유지 · QQQ $704 / SMA150 $674",
+    "120일 모멘텀 20.7% · 양호",
+    "60일 모멘텀 -4.8% · 강세 가속 기준 5.4% 미충족",
+    "20일 변동성 12.7% · 기준 19.8% 이내"
   ],
   "exposure_explanation": "상승 구간: QQQ와 2배 ETF인 QLD를 조합해 약 1.2배 시장 노출을 만듭니다.",
   "nominal_weights": {
@@ -27,10 +27,10 @@
     "CASH": 1.0
   },
   "target_weights": {
-    "QQQ": 0.7863680053710937,
-    "QLD": 0.19701000671386718,
+    "QQQ": 0.7744106750488281,
+    "QLD": 0.19097100067138673,
     "TQQQ": 0.0,
-    "CASH": 0.016621987915039063
+    "CASH": 0.03461832427978516
   },
   "target_shares": {
     "QQQ": 11.0,
@@ -44,8 +44,8 @@
       "shares": 11.0,
       "current_shares": 0.0,
       "target_shares": 11.0,
-      "price": 714.8800048828125,
-      "estimated_notional": 7863.6800537109375,
+      "price": 704.0097045898438,
+      "estimated_notional": 7744.106750488281,
       "side_ko": "매수",
       "after_shares": 11.0,
       "quantity_check": true
@@ -56,8 +56,8 @@
       "shares": 22.0,
       "current_shares": 0.0,
       "target_shares": 22.0,
-      "price": 89.55000305175781,
-      "estimated_notional": 1970.1000671386719,
+      "price": 86.80500030517578,
+      "estimated_notional": 1909.7100067138672,
       "side_ko": "매수",
       "after_shares": 22.0,
       "quantity_check": true
