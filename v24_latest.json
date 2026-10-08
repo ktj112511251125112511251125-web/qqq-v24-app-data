@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-08T02:38:41.886497+00:00",
-  "signal_date": "2026-10-07",
-  "next_execution": "2026-10-08",
+  "generated_at": "2026-10-08T21:20:00.826754+00:00",
+  "signal_date": "2026-10-08",
+  "next_execution": "2026-10-09",
   "action": "BUY / ADD",
   "action_ko": "매수",
   "state": 2,
   "exposure": 1.2,
   "reason": "상승추세 + 장기모멘텀 양수 -> 1.2x",
   "reason_plain": [
-    "상승 추세 유지 · QQQ $758 / SMA150 $688",
-    "120일 모멘텀 18.6% · 양호",
-    "60일 모멘텀 5.4% · 강세 가속 기준 5.4% 미충족",
-    "20일 변동성 15.0% · 기준 19.8% 이내"
+    "상승 추세 유지 · QQQ $748 / SMA150 $689",
+    "120일 모멘텀 15.5% · 양호",
+    "60일 모멘텀 4.3% · 강세 가속 기준 5.4% 미충족",
+    "20일 변동성 15.4% · 기준 19.8% 이내"
   ],
   "exposure_explanation": "상승 구간: QQQ와 2배 ETF인 QLD를 조합해 약 1.2배 시장 노출을 만듭니다.",
   "nominal_weights": {
@@ -27,14 +27,14 @@
     "CASH": 1.0
   },
   "target_weights": {
-    "QQQ": 0.75772998046875,
-    "QLD": 0.19043700637817382,
+    "QQQ": 0.7475800170898438,
+    "QLD": 0.1950800018310547,
     "TQQQ": 0.0,
-    "CASH": 0.051833013153076174
+    "CASH": 0.057339981079101564
   },
   "target_shares": {
     "QQQ": 10.0,
-    "QLD": 19.0,
+    "QLD": 20.0,
     "TQQQ": 0.0
   },
   "orders": [
@@ -44,8 +44,8 @@
       "shares": 10.0,
       "current_shares": 0.0,
       "target_shares": 10.0,
-      "price": 757.72998046875,
-      "estimated_notional": 7577.2998046875,
+      "price": 747.5800170898438,
+      "estimated_notional": 7475.8001708984375,
       "side_ko": "매수",
       "after_shares": 10.0,
       "quantity_check": true
@@ -53,13 +53,13 @@
     {
       "ticker": "QLD",
       "side": "BUY",
-      "shares": 19.0,
+      "shares": 20.0,
       "current_shares": 0.0,
-      "target_shares": 19.0,
-      "price": 100.2300033569336,
-      "estimated_notional": 1904.3700637817383,
+      "target_shares": 20.0,
+      "price": 97.54000091552734,
+      "estimated_notional": 1950.8000183105469,
       "side_ko": "매수",
-      "after_shares": 19.0,
+      "after_shares": 20.0,
       "quantity_check": true
     }
   ],
