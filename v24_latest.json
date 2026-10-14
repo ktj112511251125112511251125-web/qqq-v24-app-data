@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-14T01:47:16.735563+00:00",
-  "signal_date": "2026-10-13",
-  "next_execution": "2026-10-14",
+  "generated_at": "2026-10-14T20:12:36.613851+00:00",
+  "signal_date": "2026-10-14",
+  "next_execution": "2026-10-15",
   "action": "BUY / ADD",
   "action_ko": "매수",
-  "state": 3,
-  "exposure": 1.4,
-  "reason": "초강세 조건 충족. 원래 1.6x 후보지만 CAP_14로 최대 1.4x 제한",
+  "state": 2,
+  "exposure": 1.2,
+  "reason": "상승추세 + 장기모멘텀 양수 -> 1.2x",
   "reason_plain": [
-    "상승 추세 유지 · QQQ $744 / SMA150 $692",
-    "120일 모멘텀 13.7% · 양호",
-    "60일 모멘텀 6.9% · 강세 가속 기준 5.4% 충족",
-    "20일 변동성 15.0% · 기준 19.8% 이내"
+    "상승 추세 유지 · QQQ $729 / SMA150 $693",
+    "120일 모멘텀 12.1% · 양호",
+    "60일 모멘텀 2.9% · 강세 가속 기준 5.4% 미충족",
+    "20일 변동성 16.9% · 기준 19.8% 이내"
   ],
-  "exposure_explanation": "강한 상승 구간: QQQ와 QLD 비중을 높여 최대 1.4배 수준의 노출을 사용합니다.",
+  "exposure_explanation": "상승 구간: QQQ와 2배 ETF인 QLD를 조합해 약 1.2배 시장 노출을 만듭니다.",
   "nominal_weights": {
-    "QQQ": 0.6,
-    "QLD": 0.4,
+    "QQQ": 0.8,
+    "QLD": 0.2,
     "CASH": 0.0,
-    "EXPOSURE": 1.4
+    "EXPOSURE": 1.2
   },
   "current_weights": {
     "QQQ": 0.0,
@@ -27,39 +27,39 @@
     "CASH": 1.0
   },
   "target_weights": {
-    "QQQ": 0.594856005859375,
-    "QLD": 0.3954040100097656,
+    "QQQ": 0.7289500122070313,
+    "QLD": 0.19448100128173829,
     "TQQQ": 0.0,
-    "CASH": 0.009739984130859376
+    "CASH": 0.07656898651123047
   },
   "target_shares": {
-    "QQQ": 8.0,
-    "QLD": 41.0,
+    "QQQ": 10.0,
+    "QLD": 21.0,
     "TQQQ": 0.0
   },
   "orders": [
     {
       "ticker": "QQQ",
       "side": "BUY",
-      "shares": 8.0,
+      "shares": 10.0,
       "current_shares": 0.0,
-      "target_shares": 8.0,
-      "price": 743.5700073242188,
-      "estimated_notional": 5948.56005859375,
+      "target_shares": 10.0,
+      "price": 728.9500122070312,
+      "estimated_notional": 7289.5001220703125,
       "side_ko": "매수",
-      "after_shares": 8.0,
+      "after_shares": 10.0,
       "quantity_check": true
     },
     {
       "ticker": "QLD",
       "side": "BUY",
-      "shares": 41.0,
+      "shares": 21.0,
       "current_shares": 0.0,
-      "target_shares": 41.0,
-      "price": 96.44000244140625,
-      "estimated_notional": 3954.0401000976562,
+      "target_shares": 21.0,
+      "price": 92.61000061035156,
+      "estimated_notional": 1944.8100128173828,
       "side_ko": "매수",
-      "after_shares": 41.0,
+      "after_shares": 21.0,
       "quantity_check": true
     }
   ],
