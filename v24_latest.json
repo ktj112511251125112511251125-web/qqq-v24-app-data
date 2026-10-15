@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T20:12:36.613851+00:00",
+  "generated_at": "2026-10-15T01:22:58.018164+00:00",
   "signal_date": "2026-10-14",
   "next_execution": "2026-10-15",
   "action": "BUY / ADD",
@@ -28,9 +28,9 @@
   },
   "target_weights": {
     "QQQ": 0.7289500122070313,
-    "QLD": 0.19448100128173829,
+    "QLD": 0.1943550064086914,
     "TQQQ": 0.0,
-    "CASH": 0.07656898651123047
+    "CASH": 0.07669498138427734
   },
   "target_shares": {
     "QQQ": 10.0,
@@ -56,8 +56,8 @@
       "shares": 21.0,
       "current_shares": 0.0,
       "target_shares": 21.0,
-      "price": 92.61000061035156,
-      "estimated_notional": 1944.8100128173828,
+      "price": 92.55000305175781,
+      "estimated_notional": 1943.550064086914,
       "side_ko": "매수",
       "after_shares": 21.0,
       "quantity_check": true
