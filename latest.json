@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-22T01:25:40.019658+00:00",
-  "signal_date": "2026-10-21",
-  "next_execution": "2026-10-22",
+  "generated_at": "2026-10-22T20:07:29.315904+00:00",
+  "signal_date": "2026-10-22",
+  "next_execution": "2026-10-23",
   "action": "BUY / ADD",
   "action_ko": "매수",
   "state": 3,
   "exposure": 1.4,
-  "reason": "초강세 조건 충족. 원래 1.6x 후보지만 CAP_14로 최대 1.4x 제한",
+  "reason": "상승추세 + 장기모멘텀 양수 + 빠른 모멘텀 강함 + 낮은 변동성 -> 1.4x",
   "reason_plain": [
-    "상승 추세 유지 · QQQ $725 / SMA150 $697",
-    "120일 모멘텀 8.8% · 양호",
-    "60일 모멘텀 7.5% · 강세 가속 기준 5.4% 충족",
-    "20일 변동성 15.4% · 기준 19.8% 이내"
+    "상승 추세 유지 · QQQ $704 / SMA150 $698",
+    "120일 모멘텀 4.7% · 양호",
+    "60일 모멘텀 6.6% · 강세 가속 기준 5.4% 충족",
+    "20일 변동성 18.1% · 기준 19.8% 이내"
   ],
   "exposure_explanation": "강한 상승 구간: QQQ와 QLD 비중을 높여 최대 1.4배 수준의 노출을 사용합니다.",
   "nominal_weights": {
@@ -27,14 +27,14 @@
     "CASH": 1.0
   },
   "target_weights": {
-    "QQQ": 0.580160009765625,
-    "QLD": 0.39327799606323244,
+    "QQQ": 0.5635759765625,
+    "QLD": 0.39679600982666013,
     "TQQQ": 0.0,
-    "CASH": 0.026561994171142578
+    "CASH": 0.03962801361083984
   },
   "target_shares": {
     "QQQ": 8.0,
-    "QLD": 43.0,
+    "QLD": 46.0,
     "TQQQ": 0.0
   },
   "orders": [
@@ -44,8 +44,8 @@
       "shares": 8.0,
       "current_shares": 0.0,
       "target_shares": 8.0,
-      "price": 725.2000122070312,
-      "estimated_notional": 5801.60009765625,
+      "price": 704.469970703125,
+      "estimated_notional": 5635.759765625,
       "side_ko": "매수",
       "after_shares": 8.0,
       "quantity_check": true
@@ -53,13 +53,13 @@
     {
       "ticker": "QLD",
       "side": "BUY",
-      "shares": 43.0,
+      "shares": 46.0,
       "current_shares": 0.0,
-      "target_shares": 43.0,
-      "price": 91.45999908447266,
-      "estimated_notional": 3932.779960632324,
+      "target_shares": 46.0,
+      "price": 86.26000213623047,
+      "estimated_notional": 3967.9600982666016,
       "side_ko": "매수",
-      "after_shares": 43.0,
+      "after_shares": 46.0,
       "quantity_check": true
     }
   ],
