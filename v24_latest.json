@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-29T02:17:39.084345+00:00",
-  "signal_date": "2026-10-28",
-  "next_execution": "2026-10-29",
+  "generated_at": "2026-10-29T21:07:42.902000+00:00",
+  "signal_date": "2026-10-29",
+  "next_execution": "2026-10-30",
   "action": "BUY / ADD",
   "action_ko": "매수",
   "state": 2,
   "exposure": 1.2,
   "reason": "상승추세 + 장기모멘텀 양수 -> 1.2x",
   "reason_plain": [
-    "상승 추세 유지 · QQQ $726 / SMA150 $701",
-    "120일 모멘텀 4.6% · 양호",
-    "60일 모멘텀 0.3% · 강세 가속 기준 5.4% 미충족",
-    "20일 변동성 19.0% · 기준 19.8% 이내"
+    "상승 추세 유지 · QQQ $715 / SMA150 $702",
+    "120일 모멘텀 0.8% · 양호",
+    "60일 모멘텀 -0.2% · 강세 가속 기준 5.4% 미충족",
+    "20일 변동성 19.5% · 기준 19.8% 이내"
   ],
   "exposure_explanation": "상승 구간: QQQ와 2배 ETF인 QLD를 조합해 약 1.2배 시장 노출을 만듭니다.",
   "nominal_weights": {
@@ -27,39 +27,39 @@
     "CASH": 1.0
   },
   "target_weights": {
-    "QQQ": 0.7256099853515625,
-    "QLD": 0.1919189987182617,
+    "QQQ": 0.7868740295410156,
+    "QLD": 0.19522799530029297,
     "TQQQ": 0.0,
-    "CASH": 0.08247101593017578
+    "CASH": 0.017897975158691407
   },
   "target_shares": {
-    "QQQ": 10.0,
-    "QLD": 21.0,
+    "QQQ": 11.0,
+    "QLD": 22.0,
     "TQQQ": 0.0
   },
   "orders": [
     {
       "ticker": "QQQ",
       "side": "BUY",
-      "shares": 10.0,
+      "shares": 11.0,
       "current_shares": 0.0,
-      "target_shares": 10.0,
-      "price": 725.6099853515625,
-      "estimated_notional": 7256.099853515625,
+      "target_shares": 11.0,
+      "price": 715.3400268554688,
+      "estimated_notional": 7868.740295410156,
       "side_ko": "매수",
-      "after_shares": 10.0,
+      "after_shares": 11.0,
       "quantity_check": true
     },
     {
       "ticker": "QLD",
       "side": "BUY",
-      "shares": 21.0,
+      "shares": 22.0,
       "current_shares": 0.0,
-      "target_shares": 21.0,
-      "price": 91.38999938964844,
-      "estimated_notional": 1919.1899871826172,
+      "target_shares": 22.0,
+      "price": 88.73999786376953,
+      "estimated_notional": 1952.2799530029297,
       "side_ko": "매수",
-      "after_shares": 21.0,
+      "after_shares": 22.0,
       "quantity_check": true
     }
   ],
