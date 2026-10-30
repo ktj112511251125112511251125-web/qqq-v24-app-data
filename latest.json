@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-30T02:30:46.735878+00:00",
-  "signal_date": "2026-10-29",
-  "next_execution": "2026-10-30",
+  "generated_at": "2026-10-30T20:48:35.608747+00:00",
+  "signal_date": "2026-10-30",
+  "next_execution": "2026-11-02",
   "action": "BUY / ADD",
   "action_ko": "매수",
-  "state": 2,
-  "exposure": 1.2,
-  "reason": "상승추세 + 장기모멘텀 양수 -> 1.2x",
+  "state": 1,
+  "exposure": 1.0,
+  "reason": "FAST_RISK: 장기추세 이탈 + 변동성 상승 -> 1.0x",
   "reason_plain": [
-    "상승 추세 유지 · QQQ $715 / SMA150 $702",
-    "120일 모멘텀 0.8% · 양호",
-    "60일 모멘텀 -0.2% · 강세 가속 기준 5.4% 미충족",
-    "20일 변동성 19.5% · 기준 19.8% 이내"
+    "장기 추세 이탈 · QQQ $690 / SMA150 $703",
+    "120일 모멘텀 -3.0% · 약세",
+    "60일 모멘텀 -3.3% · 강세 가속 기준 5.4% 미충족",
+    "20일 변동성 22.1% · 기준 19.8% 초과"
   ],
-  "exposure_explanation": "상승 구간: QQQ와 2배 ETF인 QLD를 조합해 약 1.2배 시장 노출을 만듭니다.",
+  "exposure_explanation": "기본 노출 구간: QQQ 중심으로 시장과 비슷한 수준의 노출을 유지합니다.",
   "nominal_weights": {
-    "QQQ": 0.8,
-    "QLD": 0.2,
+    "QQQ": 1.0,
+    "QLD": 0.0,
     "CASH": 0.0,
-    "EXPOSURE": 1.2
+    "EXPOSURE": 1.0
   },
   "current_weights": {
     "QQQ": 0.0,
@@ -27,39 +27,27 @@
     "CASH": 1.0
   },
   "target_weights": {
-    "QQQ": 0.7868740295410156,
-    "QLD": 0.19522799530029297,
+    "QQQ": 0.966685986328125,
+    "QLD": 0.0,
     "TQQQ": 0.0,
-    "CASH": 0.017897975158691407
+    "CASH": 0.033314013671875
   },
   "target_shares": {
-    "QQQ": 11.0,
-    "QLD": 22.0,
+    "QQQ": 14.0,
+    "QLD": 0.0,
     "TQQQ": 0.0
   },
   "orders": [
     {
       "ticker": "QQQ",
       "side": "BUY",
-      "shares": 11.0,
+      "shares": 14.0,
       "current_shares": 0.0,
-      "target_shares": 11.0,
-      "price": 715.3400268554688,
-      "estimated_notional": 7868.740295410156,
+      "target_shares": 14.0,
+      "price": 690.489990234375,
+      "estimated_notional": 9666.85986328125,
       "side_ko": "매수",
-      "after_shares": 11.0,
-      "quantity_check": true
-    },
-    {
-      "ticker": "QLD",
-      "side": "BUY",
-      "shares": 22.0,
-      "current_shares": 0.0,
-      "target_shares": 22.0,
-      "price": 88.73999786376953,
-      "estimated_notional": 1952.2799530029297,
-      "side_ko": "매수",
-      "after_shares": 22.0,
+      "after_shares": 14.0,
       "quantity_check": true
     }
   ],
