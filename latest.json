@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-18T04:08:25.701739+00:00",
-  "signal_date": "2026-11-17",
-  "next_execution": "2026-11-18",
+  "generated_at": "2026-11-18T22:57:03.151363+00:00",
+  "signal_date": "2026-11-18",
+  "next_execution": "2026-11-19",
   "action": "BUY / ADD",
   "action_ko": "매수",
   "state": 1,
   "exposure": 1.0,
   "reason": "FAST_RISK: 장기추세 이탈 + 변동성 상승 -> 1.0x",
   "reason_plain": [
-    "장기 추세 이탈 · QQQ $657 / SMA150 $709",
+    "장기 추세 이탈 · QQQ $660 / SMA150 $709",
     "120일 모멘텀 -10.5% · 약세",
-    "60일 모멘텀 -6.9% · 강세 가속 기준 5.4% 미충족",
-    "20일 변동성 35.1% · 기준 19.8% 초과"
+    "60일 모멘텀 -7.1% · 강세 가속 기준 5.4% 미충족",
+    "20일 변동성 34.8% · 기준 19.8% 초과"
   ],
   "exposure_explanation": "기본 노출 구간: QQQ 중심으로 시장과 비슷한 수준의 노출을 유지합니다.",
   "nominal_weights": {
@@ -27,10 +27,10 @@
     "CASH": 1.0
   },
   "target_weights": {
-    "QQQ": 0.9854250183105469,
+    "QQQ": 0.9892650146484375,
     "QLD": 0.0,
     "TQQQ": 0.0,
-    "CASH": 0.014574981689453126
+    "CASH": 0.0107349853515625
   },
   "target_shares": {
     "QQQ": 15.0,
@@ -44,8 +44,8 @@
       "shares": 15.0,
       "current_shares": 0.0,
       "target_shares": 15.0,
-      "price": 656.9500122070312,
-      "estimated_notional": 9854.250183105469,
+      "price": 659.510009765625,
+      "estimated_notional": 9892.650146484375,
       "side_ko": "매수",
       "after_shares": 15.0,
       "quantity_check": true
